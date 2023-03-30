@@ -2,19 +2,43 @@ body{
     margin: 0px;
     padding: 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(81, 80, 80);
+
 
 }
-#nav{
+*{
+    box-sizing: border-box;
+}
+#navbar{
+    background:#ffff;
+    height:70px;
+    z-index:999;
+    margin:0 auto;
+    border-bottom:1px solid #dadada;
+    width:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+}
+#nav, #navtwo{
+    width: 100%;
     display: flex;
     justify-content: space-between;  
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
     height: 80px;
     align-items: center;
     padding-top: 4px;
     padding-bottom: 4px;
     border: 1px solid rgb(201, 198, 198);
+    background-color: white;
     
+}
+#navtwo{
+    height: 45px;
+    border-top: none;
+    border-bottom: 2px solid rgb(201, 198, 198);;
 }
 
 #logo>img{
@@ -52,19 +76,15 @@ body{
 }
 .vertical{
     border-right: 2px solid rgb(203, 202, 202);
-  height: 93px;
+  height: 80px;
   margin-left: 15px;
 }
-.horizontal{
-    border-bottom: 3px solid green;
-    width: 200px;
-    margin: 0px;
-}
+
 #mob, #supplier{
     display: flex;    
     align-items: center;
     margin: 5px;
-    margin-top: 1px;
+    margin-top: 0px;
 }
 
 h5{
@@ -80,15 +100,17 @@ h5{
 
 #profile, #cart{
    display: block;    
-    margin: 15px;
+    margin: 1px;
     margin-bottom: 3px;
     margin-left: 30px;
     display: block;
     text-align: center;
     padding: 10px;
+    color: rgb(47, 47, 47);
 }
 #profile>i, #cart>i{
-    font-size: 30px;     
+    font-size: 30px; 
+    
 }
 #profile>h5, #cart>h5{
     margin: 0px;
@@ -98,26 +120,50 @@ h5{
 #mob{
     position: relative;
 }
-#download, #Profile{
+#download{
     position: absolute;
     display: none;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-    margin-top: 310px;
+    margin-top: 300px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(81, 80, 80);  
+
+}
+#Profile{
+    position: absolute;
+    display: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin-top: 10px;
     background-color: white;
     padding: 10px;
     border-radius: 10px;
     color: rgb(81, 80, 80);
 }
-
+#Profile>button{
+    cursor: pointer;
+}
 #download>img{
     width: 200px;
     height: 50px;
     margin: 5px;
 }
-#mob:hover, #profile:hover{
+#Ethnic, #Western, #Men, #Kids, #Kitchen, #Beauty, #Jewellery, #Footwear, #Electronics{
+    /* border: 1px solid red; */
+    display: flex;
+   align-items: center;
+    margin: 3px;
+    margin-top: 1px;
+    height: 55px;
+    padding-top: px;
+    cursor: pointer;
+    
+}
+#mob:hover, #profile:hover, #Ethnic:hover, #Western:hover, #Men:hover, #Kids:hover, #Kitchen:hover, #Beauty:hover, #Jewellery:hover, #Footwear:hover, #Electronics:hover{
     border-bottom: 5px solid rgb(244, 51, 151);
 }
-#mob:hover h5, #mob:hover i, #profile:hover h5, #profile:hover i{
+#mob:hover h5, #mob:hover i, #profile:hover h5, #profile:hover i, #Ethnic:hover h5, #Western:hover h5,#Men:hover h5,#Kids:hover h5, #Kitchen:hover h5, #Beauty:hover h5, #Jewellery:hover h5, #Footwear:hover h5, #Electronics:hover h5{
     color: rgb(244, 51, 151);
 }
 #mob:hover #download, #profile:hover #Profile{
@@ -143,16 +189,73 @@ h5{
     border-radius: 5px;
     outline: none;
 }
-
-
-#A{
+#Ethnic{
     position: relative;
 }
-#a{
+#menu, #Westernmenu, #Menmenu,#Kidsmenu,#Homemenu,#Beautymenu,#Jewellerymenu,#Footwearmenu,#Electronicsmenu{
     position: absolute;
     display: none;
-    background-color: grey;
+    margin-top: 31px;
+    margin-left: -45px;
+    width: 1150px;
+    background-color: white;
+    padding: 10px;
+    color: rgb(81, 80, 80);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    cursor: pointer;
+    
 }
-#A:hover #a{
+#menu{
+    margin-left: -110px;
+
+}
+#Electronicsmenu{
+    margin-left: -1110px;
+
+}
+#Footwearmenu{
+    margin-left: -1000px;
+}
+#Jewellerymenu{
+    margin-left: -850px;
+}
+#Westernmenu{
+    margin-left: -250px;
+}
+#Menmenu{
+    margin-left: -310px;
+}
+#viewMenu{
+    display: flex;
+}
+#Kidsmenu{
+    margin-left: -370px;
+}
+#viewMenu>div{
+    margin: 5px;
+    margin-top: 0px;
+    padding: 10px;
+    border-radius: 5px;
     display: block;
 }
+#viewMenu>div>h4{
+    color: rgb(244, 51, 151);
+}
+#viewMenu>div>a{
+    color: rgb(81, 80, 80);
+    text-decoration: none;
+    margin: 5px;
+}
+#Homemenu{
+    margin-left: -510px;
+}
+#Beautymenu{
+    margin-left: -650px;
+}
+.two{
+    background-color: rgb(232, 234, 236);
+}
+#Ethnic:hover #menu, #Western:hover #Westernmenu, #Men:hover #Menmenu, #Kids:hover #Kidsmenu, #Kitchen:hover #Homemenu, #Beauty:hover #Beautymenu, #Jewellery:hover #Jewellerymenu, #Footwear:hover #Footwearmenu,#Electronics:hover #Electronicsmenu{
+    display: block; 
+}
+
