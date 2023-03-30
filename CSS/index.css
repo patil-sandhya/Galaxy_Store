@@ -258,4 +258,271 @@ h5{
 #Ethnic:hover #menu, #Western:hover #Westernmenu, #Men:hover #Menmenu, #Kids:hover #Kidsmenu, #Kitchen:hover #Homemenu, #Beauty:hover #Beautymenu, #Jewellery:hover #Jewellerymenu, #Footwear:hover #Footwearmenu,#Electronics:hover #Electronicsmenu{
     display: block; 
 }
+/* Middle */
+.middle{
+    width: 80%;
+    margin: auto;
+    margin-top: 150px;
+}
+#lowestPrice{
+    display: flex;
+    margin-top: 50px;
+}
+.prices{
+    width: 50%;
+    padding-left: 30px;
+    padding-top: 10px;
+    background-color: rgb(244, 246, 248);
+    border-radius: 3px;
+}
+.prices>h1{
+    font-size: 40px;
+}
+.threeImg{
+    display: flex;
+    background-color: white;
+    width: 90%;
+    justify-content: space-around;
+    padding-left: 10px;
+    padding-top: 1px;
+    height: 60px;
+    border-radius: 5px;
+}
+.threeImg>div{
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2px;
+}
+.threeImg>div>img{
+    background-color: rgb(244, 51, 151);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
+}
+.threeImg>div>p{
+    font-size: 15px;
+}
+.vline{
+    border-right: 2px solid rgb(203, 202, 202);
+}
+.image1{
+    width: 50%;
+    
+}
+.playstore>button{
+    display: flex;
+    background-color: rgb(244, 51, 151);
+    margin-top: 20px;
+    width: 65%;
+    align-items: center;
+    border-radius: 5px;
+    padding-left: 15px;
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.playstore>button>img{
+    width: 30px;
+    height: 35px;
+    border-radius: 2px;
+    margin-right: 5px;
+}
+.playstore>button>h5{
+    color:  white;
+    font-weight: 500;
+}
+.topcate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.topcate>h1{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.horizontal{
+    border-bottom: 1px solid rgb(244, 51, 151);
+    width: 21%;
+    height: 0.09px;
+}
+.fashion{
+    background: url(../Images/fashion.webp);
+    padding: 40px;
+    padding-top: 50px;
+    justify-content: space-around;
+    margin: 10px;
+    align-items: center;
+    border-radius: 5px;
+
+}
+#storeImg2,#storeImg3{
+    height: 300px;
+    width: 300px;
+    padding-left: 20px;
+    cursor: pointer;
+    margin-top: 150px;
+}
+#storeImg1{
+    height: 400px;
+    width: 370px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.essential,.newStyle{
+    background: url(../Images/Essentials.webp);
+    margin-top: 70px;
+    border-radius: 5px;
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.newStyle{
+    background: url(../Images/NewStyle.jpg);
+}
+.viewbtn{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.essentialImg,.newStyleImg{
+    margin-left: 150px; 
+    display: flex;
+}
+#card{
+    margin: 10px;
+    padding: 1%;
+    text-align: center;
+    cursor: pointer;
+}
+#card>img{
+    margin-bottom: 1px;
+}
+#card>p{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.reseler{
+    background: url(../Images/reseller.webp);
+    text-align: right;
+    padding-top: 50px;
+    padding-right: 50px;
+   margin-top: 70px;
+   margin-bottom: 10px;
+   border-radius: 5px;
+}
+.reseler>h1{
+    color: rgb(244, 51, 151);
+    font-size: 40px;
+    line-height: 50px;
+}
+.reseler>h2{
+    color: rgb(0, 162, 255);
+}
+.reseler>div>img{
+    width: 150px;
+    height: 40px;
+    margin-bottom: 250px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.supplier{
+    background: url(../Images/supplyBanner.webp);
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding-top: 30px;
+    padding-left: 50px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+.supplier>div{
+    display: flex;
+    align-items: center;
+    
+}
+.supplier>div>span{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 5px;
+    margin-right: 20px;
+}
+.supplier>div>img{
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    border-radius: 55%;
+    
+}
+#signUPBtn{
+    background-color: white;
+    color: rgb(244, 51, 151);
+    border-radius: 5px;
+    width: 140px;
+    height: 60px;
+    margin-top: 22px;
+    margin-bottom: 5px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    padding: 1px;
+}
+#verLine{
+    border-right: 2px solid rgb(203, 202, 202);
+  height: 25px;
+  margin-right: 25px;
+}
+
+/* product */
+.product{
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+.product>h1{
+    color: rgb(44, 44, 44);
+    
+}
+#sort{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 5px;
+    outline: none;
+    border: 1px solid rgb(162, 160, 160);
+}
+
+#sort>option:hover{
+    background-color: gainsboro;
+}
+
+#filterdiv{
+    width: 300px;
+    margin-top: 5px;
+    outline: none;
+}
+.filterHead>h4{
+    padding-left: 20px;
+    padding-top: 20px;
+    color: rgb(44, 44, 44);
+
+}
+.filterHead>p{
+    padding-left: 20px;
+    color: grey;
+    font-size: 15px;
+}
+#filterBtn{
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid rgb(189, 188, 188);
+    padding: 7px;
+    font-size: 13px;
+    margin: 5px;
+}
 
