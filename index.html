@@ -5,62 +5,375 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galaxy Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./CSS/index.css">
 </head>
 <body>
-    <div id="nav">
-        <div class="firstdiv">
-        <div id="logo">
-            <img src="./Images/Logo.png" alt="">
-        </div>
-        <div class="search">
-            <img src="./Images/se.png" alt="">
-            <!-- <p>Try Saree, Kurti or Search by Product Code</p> -->
-            <input type="text" placeholder="Try Saree, Kurti or Search by Product Code">
-        </div>
-    </div>
-    <div class="secondDiv">
-        <div id="mob">   
-            <p><i class="fa fa-mobile" aria-hidden="true"></i> <h5>Download App</h5></p>               
-            <div id="download">
-                <h3>Download From a</h3>
-                <img src="https://images.meesho.com/images/pow/playstore-icon-big.webp" alt=""><br>
-                <img src="https://images.meesho.com/images/pow/appstore-icon-big.webp" alt="">
+    <div id="navbar">
+        <div id="nav">
+            <div class="firstdiv">
+            <div id="logo">
+                <img src="./Images/Logo.png" alt="">
+            </div>
+            <div class="search">
+                <img src="./Images/se.png" alt="">
+                <!-- <p>Try Saree, Kurti or Search by Product Code</p> -->
+                <input type="text" placeholder="Try Saree, Kurti or Search by Product Code">
             </div>
         </div>
-
-        <div class = "vertical"></div> 
-        <div id="supplier">
-            <h5>Become a Supplier</h5>
-        </div>
-        <div class = "vertical"></div>
-
-        <div id="profile">
-            <i class="fa fa-user"></i>
-            <h5>Profile</h5>
-            <div id="Profile">
-                <h3>Hello User</h3>
-                <p>To access your Meesho account</p>
-                <button>Sign Up</button>
+        <div class="secondDiv">
+            <div id="mob">   
+                <p><i class="fa fa-mobile" aria-hidden="true"></i> <h5>Download App</h5></p>               
+                <div id="download">
+                    <h3>Download From a</h3>
+                    <img src="https://images.meesho.com/images/pow/playstore-icon-big.webp" alt=""><br>
+                    <img src="https://images.meesho.com/images/pow/appstore-icon-big.webp" alt="">
+                </div>
+            </div>
+    
+            <div class = "vertical"></div> 
+            <div id="supplier">
+                <h5>Become a Supplier</h5>
+            </div>
+            <div class = "vertical"></div>
+    
+            <div id="profile">
+                <i class="fa fa-user"></i>
+                <h5>Profile</h5>
+                <div id="Profile">
+                    <h3>Hello User</h3>
+                    <p>To access your Galaxy account</p>
+                    <button>Sign Up</button>
+                </div>
+            </div>
+            <div id="cart">
+                <i class="fa fa-shopping-cart"></i>
+                   <h5>Cart</h5> 
             </div>
         </div>
-        <div id="cart">
-            <i class="fa fa-shopping-cart"></i>
-               <h5>Cart</h5> 
+        </div>
+        <div id="navtwo">
+            <div id="Ethnic"><h5>Women Ethnic<h5>
+                <div id="menu">
+                    <div id="viewMenu">
+                        <div>
+                            <h4>All Women Ethnic</h4>
+                            <a href="#">View All</a>
+                        </div> 
+                        <div class="two">
+                            <h4>Sarees</h4>
+                            <a href="#">All Sarees</a><br>
+                            <a href="#">Silk Sarees</a><br>
+                            <a href="#">Cotton Sarees</a><br>
+                        </div> 
+                        <div>
+                            <h4>Kurtis</h4>
+                            <a href="#">All Kurtis</a><br>
+                            <a href="#">Anarkali Kurtis</a><br>
+                            <a href="#">Rayon Kurtis</a><br>
+                        </div> 
+                    </div>
+                </div> 
+            </div>
+            <div id="Western"><h5>Women Western<h5>
+                <div id="Westernmenu">
+                    <div id="viewMenu">
+                        <div>
+                            <h4>Topwear</h4>
+                            <a href="#">Tops</a><br>
+                            <a href="#">Dresses</a><br>
+    
+                        </div> 
+                        <div class="two">
+                            <h4>Bottomwear</h4>
+                            <a href="#">Jeans</a><br>
+                            <a href="#">Palazzos</a>
+                        </div> 
+                    </div>
+                </div>  
+            </div>
+            <div id="Men"><h5>Men<h5> 
+                <div id="Menmenu">
+                    <div id="viewMenu">
+                        <div>
+                            <h4>Top Wear</h4>
+                            <a href="#">Tshirts</a><br>
+                            <a href="#">Shirts</a><br>
+    
+                        </div> 
+                        <div class="two">
+                            <h4>Bottomwear</h4>
+                            <a href="#">Track Pants</a><br>
+                            <a href="#">Jeans</a>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            <div id="Kids"><h5>Kids<h5> 
+                <div id="Kidsmenu">
+                    <div id="viewMenu">
+                        <div>
+                            <h4>Boys & Girls 2+ Years</h4>
+                            <a href="#">Dresses</a><br>
+                        </div> 
+                        
+                    </div>
+                </div>
+            </div>
+            <div id="Kitchen"><h5>Home & Kitchen<h5> 
+                <div id="Homemenu">
+                    <div id="viewMenu">
+                        <div>
+                            <h4>Home Furnishing</h4>
+                            <a href="#">Bedsheets</a><br>
+    
+                        </div> 
+                        <div class="two">
+                            <h4>Home Decor</h4>
+                            <a href="#">All Home Decor</a><br>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            <div id="Beauty"><h5>Beauty & Health<h5> 
+                <div id="Beautymenu">
+                    <div id="viewMenu">
+                        <div>
+                            <h4>Make up</h4>
+                            <a href="#">Face</a><br>
+                            <a href="#">Eyes</a><br>
+                            <a href="#">Lips</a><br>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            <div id="Jewellery"><h5>Jewellery & Accessories<h5> 
+                <div id="Jewellerymenu">
+                    <div id="viewMenu">
+                        <div>
+                            <h4>Jewellery</h4>
+                            <a href="#">Jewellery Set</a><br>
+                            <a href="#">Earrings</a><br>
+                            <a href="#">Bangles</a><br>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            <div id="Footwear"><h5>Bags & Footwear<h5> 
+                <div id="Footwearmenu">
+                    <div id="viewMenu">
+                        <div>
+                            <h4>Women Bags</h4>
+                            <a href="#">All Women Bags</a><br>
+                            <a href="#">Handbags</a><br>
+                        </div> 
+                        <div class="two">
+                            <h4>Men Footwear</h4>
+                            <a href="#">Sports Shoes</a><br>
+                            <a href="#">Formal Shoes</a>
+                        </div> 
+                        <div>
+                            <h4>Women Footwear</h4>
+                            <a href="#">Flats</a><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="Electronics"><h5>Electronics<h5>
+                <div id="Electronicsmenu">
+                    <div id="viewMenu">
+                        <div>
+                            <h4>Mobile & Accessories</h4>
+                            <a href="#">All Mobile Accessories</a><br>
+                            <a href="#">Mobile cases and covers</a><br>
+                        </div> 
+                    </div>
+                </div>   
+            </div>
+        </div>
+    </div> 
+    <div class="middle">
+        <div id="lowestPrice">
+            <div class="prices">
+                <h1>Lowest Prices <br> Best Quality Shopping</h1>
+                <div class="threeImg">
+                    <div>
+                    <img src="https://images.meesho.com/images/pow/freeDelivery.svg" alt="">
+                    <p>Free Delivery</p>
+                </div>
+                    <div class="vline"></div>
+                    <div>
+                    <img src="https://images.meesho.com/images/pow/cod.svg" alt="">
+                    <p>Cash on Delivery</p>
+                </div>
+                    <div class="vline"></div>
+                    <div>
+                    <img src="https://images.meesho.com/images/pow/easyReturns.svg" alt="">
+                    <p>Easy Returns</p>
+                </div>
+                </div>
+                <div class="playstore">
+                    <button>
+                    <img src="https://images.meesho.com/images/pow/playstoreSmallIcon.webp" alt="">
+                    <h4>Download the Galaxy Store App</h4></button>
+                </div>
+            </div>
+            <div class="image1">
+                <img src="https://images.meesho.com/images/marketing/1680091453441.webp" alt="">
+            </div>
+        </div>
+        <div class="topcate">
+            <div class="horizontal"></div>
+            <h1>Top Categories to choose from</h1>
+            <div class="horizontal"></div>
+        </div>
+        <div class="fashion">
+            <div id="store">
+                <div class="storeImg" >
+                    <img id="storeImg1" onclick="location.href='#';" src="https://images.meesho.com/images/marketing/1680091497829.webp" alt="">
+                    <img id="storeImg2" onclick="location.href='#';" src="https://images.meesho.com/images/marketing/1680091584937.webp" alt="">
+                    <img id="storeImg3" onclick="location.href='#';" src="https://images.meesho.com/images/marketing/1680091570371.webp" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="essential">
+            <div class="viewbtn">
+                <img src="./Images/viewbtn.webp" alt="">
+            </div>
+            <div class="essentialImg">
+                <div id="card" onclick="location.href='#';">
+                    <img src="https://images.meesho.com/images/marketing/1680091687255.webp" alt="">
+                    <p><img src="./Images/HomeDec.webp" alt=""></p>
+                </div>
+                <div id="card" onclick="location.href='#';">
+                 <img src="https://images.meesho.com/images/marketing/1680091703795.webp" alt="">
+                    <p><img src="./Images/Kitchen.webp" alt=""></p>
+                </div>
+                <div id="card" onclick="location.href='#';">
+                <img src="https://images.meesho.com/images/marketing/1680091672842.webp" alt="">
+                       <p><img src="./Images/Health.webp" alt=""></p>
+                   </div>
+            
+            </div>
+        </div>
+        <div class="newStyle">
+            <div class="viewbtn">
+                <img src="./Images/viewbtn.webp" alt="">
+            </div>
+            <div class="newStyleImg">
+                <div id="card" onclick="location.href='#';">
+                    <img src="https://images.meesho.com/images/marketing/1680091786758.webp" alt="">
+                    <p><img src="./Images/asscbtn.webp" alt=""></p>
+                </div>
+                <div id="card" onclick="location.href='#';">
+                 <img src="https://images.meesho.com/images/marketing/1680091775036.webp" alt="">
+                    <p><img src="./Images/footwarebtn.webp" alt=""></p>
+                </div>
+                <div id="card" onclick="location.href='#';">
+                <img src="https://images.meesho.com/images/marketing/1680091798704.webp" alt="">
+                       <p><img src="./Images/eleectronicbtn.webp" alt=""></p>
+                   </div>
+            
+            </div>
+        </div>
+        <div class="reseler">
+            <h2>Become a Reseller and</h2>
+            <h1>Start your Online Business <br>
+                with Zero Investment</h1>
+                <div>
+                    <img onclick="location.href='#';" src="./Images/playstoreResel.webp" alt="">
+                    <img onclick="location.href='#';" src="./Images/appleResel.webp" alt="">
+                </div>
+        </div>
+        <div class="supplier">
+            <h1>Register as a Meesho Supplier</h1>
+            <p>Sell your products to crores of customers at 0% commission</p>
+            <div>
+                <img src="./Images/icons8-ok-50.png" alt="">
+                <span>Grow your business 10x</span>
+                <div id="verLine"></div>
+                <img src="./Images/icons8-ok-50.png" alt="">
+                <span>Enjoy 100% profit</span>
+                <div id="verLine"></div>
+                <img src="./Images/icons8-ok-50.png" alt="">
+                <span>Sell all over India</span>
+            </div>
+            <div id="signUPBtn"> <h4>Sign Up Now</h4> </div>
         </div>
     </div>
-        <!-- <div id="A">
-            <p>abd</p>
-            <div id="a">
-                <p>q</p>
-                <p>e</p>
-                <p>w</p>
+    <div class="product">
+        <h1>Products For You</h1>
+        <div id="sort&filter">
+            <div id="sortdiv">
+                <select name="sort" id="sort">
+                    <option value="Relevance"><p> Sort by :</p><span>Relevance </span></option>
+                    <option value="new"> <p>Sort by :</p><span>Arrivals</span></option>
+                    <option value="htl"> <p>Sort by :</p><span>Price (High to Low)</span></option>
+                    <option value="lth"> <p>Sort by :</p><span>Price (Low to High)</span></option>
+                </select>
             </div>
-        </div> -->
-    </div>
-    <div id="navtwo">
-
+            <div id="filterdiv">
+                
+                <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="" id="headingOne">
+                    <div class="filterHead" >
+                      <h4>FILTERS</h4>
+                      <p>1000+ products</p>
+                    </div>
+                  </h2>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Gender
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <button id="filterBtn" value="women">Women</button>
+                      <button id="filterBtn" value="men">Men</button>
+                      <button id="filterBtn" value="kids">Kids</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#price" aria-expanded="false" aria-controls="price">
+                      Price
+                    </button>
+                  </h2>
+                  <div id="price" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <button id="filterBtn" value="299">Under ₹ 299</button>
+                      <button id="filterBtn" value="349">Under ₹ 349</button>
+                      <button id="filterBtn" value="399">Under ₹ 399</button>
+                      <button id="filterBtn" value="499">Under ₹ 499</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#price" aria-expanded="false" aria-controls="price">
+                        Rating
+                      </button>
+                    </h2>
+                    <div id="price" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <button id="filterBtn" value="2">2.0 and above</button>
+                        <button id="filterBtn" value="3">3.0 and above</button>
+                        <button id="filterBtn" value="3.5">3.5 and above</button>
+                        <button id="filterBtn" value="4">4.0 and above</button>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+        
     </div>
 </body>
+<script src="./JS/index.js"></script>
 </html>
