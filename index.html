@@ -15,7 +15,7 @@
         <div id="nav">
             <div class="firstdiv">
             <div id="logo">
-                <img src="./Images/Logo.png" alt="">
+                <img src="./Images/Logo.png" alt="" onclick="location.href='index.html';">
             </div>
             <div class="search">
                 <img src="./Images/se.png" alt="">
@@ -27,7 +27,7 @@
             <div id="mob">   
                 <p><i class="fa fa-mobile" aria-hidden="true"></i> <h5>Download App</h5></p>               
                 <div id="download">
-                    <h3>Download From a</h3>
+                    <h3>Download From</h3>
                     <img src="https://images.meesho.com/images/pow/playstore-icon-big.webp" alt=""><br>
                     <img src="https://images.meesho.com/images/pow/appstore-icon-big.webp" alt="">
                 </div>
@@ -45,7 +45,7 @@
                 <div id="Profile">
                     <h3>Hello User</h3>
                     <p>To access your Galaxy account</p>
-                    <button>Sign Up</button>
+                    <button onclick="location.href='SignUp.html';">Sign Up</button>
                 </div>
             </div>
             <div id="cart">
@@ -288,7 +288,7 @@
                 </div>
         </div>
         <div class="supplier">
-            <h1>Register as a Meesho Supplier</h1>
+            <h1>Register as a Galaxy Supplier</h1>
             <p>Sell your products to crores of customers at 0% commission</p>
             <div>
                 <img src="./Images/icons8-ok-50.png" alt="">
@@ -305,6 +305,7 @@
     </div>
     <div class="product">
         <h1>Products For You</h1>
+        <div>
         <div id="sort&filter">
             <div id="sortdiv">
                 <select name="sort" id="sort">
@@ -320,8 +321,13 @@
                 <div class="accordion-item">
                   <h2 class="" id="headingOne">
                     <div class="filterHead" >
-                      <h4>FILTERS</h4>
+                        <div>
+                      <h4>FILTERS</h4> 
                       <p>1000+ products</p>
+                    </div>
+                    <div>
+                        <h5>CLEAR ALL</h5>
+                    </div>
                     </div>
                   </h2>
                 </div>
@@ -350,17 +356,17 @@
                       <button id="filterBtn" value="299">Under ₹ 299</button>
                       <button id="filterBtn" value="349">Under ₹ 349</button>
                       <button id="filterBtn" value="399">Under ₹ 399</button>
-                      <button id="filterBtn" value="499">Under ₹ 499</button>
+                      <button id="filterBtn" value="400">Above ₹ 399</button>
                     </div>
                   </div>
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingThree">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#price" aria-expanded="false" aria-controls="price">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#rating" aria-expanded="false" aria-controls="rating">
                         Rating
                       </button>
                     </h2>
-                    <div id="price" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div id="rating" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                       <div class="accordion-body">
                         <button id="filterBtn" value="2">2.0 and above</button>
                         <button id="filterBtn" value="3">3.0 and above</button>
@@ -372,8 +378,95 @@
               </div>
             </div>
         </div>
-        
+        <div id="displayproduct">
+            
+            <!-- <div>
+                <img src="https://images.meesho.com/images/products/1057578/1_512.webp" alt="">
+                <p>Aishani Ensemble Kurtis</p>
+                <h3>₹ <span>206</span></h3>
+                <div id="rt"><span>4.3</span> <i class="fa fa-star" aria-hidden="true"></i></div>
+            </div>
+            <div>
+                <img src="https://images.meesho.com/images/products/1057578/1_512.webp" alt="">
+                <p>Aishani Ensemble Kurtis</p>
+                <h3>₹ <span>206</span></h3>
+                <div id="rt"><span>4.3</span> <i class="fa fa-star" aria-hidden="true"></i></div>
+            </div>
+            <div>
+                <img src="https://images.meesho.com/images/products/1057578/1_512.webp" alt="">
+                <p>Aishani Ensemble Kurtis</p>
+                <h3>₹ <span>206</span></h3>
+                <div id="rt"><span>4.3</span> <i class="fa fa-star" aria-hidden="true"></i></div>
+            </div>
+            <div>
+                <img src="https://images.meesho.com/images/products/1057578/1_512.webp" alt="">
+                <p>Aishani Ensemble Kurtis</p>
+                <h3>₹ <span>206</span></h3>
+                <div id="rt"><span>4.3</span> <i class="fa fa-star" aria-hidden="true"></i></div>
+            </div> -->
+        </div>
     </div>
+    </div>
+    <footer id="footerstart">
+    <div id="footer">
+        <div>
+            <h3>Shop Non-Stop on Galaxy</h3>
+            <p>Trusted by more than 1 Crore Indians</p>
+            <p>Cash on Delivery | Free Delivery</p>
+            <div>
+                <img onclick="location.href='#';" src="./Images/playstoreResel.webp" alt="">
+                <img onclick="location.href='#';" src="./Images/appleResel.webp" alt="">
+            </div>
+        </div>
+        <div>
+            <h4>Careers</h4>
+            <h4>Become a supplier</h4>
+            <h4>Hall of Fame</h4>
+        </div>
+        <div>
+            <h4>Legal and Policies</h4>
+            <h4>Meesho Tech Blog</h4>
+            <h4>Notices and Returns</h4>
+        </div>
+        <div id="reach">
+            <h3>Reach out to us</h3>
+            <div>
+                <img src="https://images.meesho.com/images/pow/facebook.png" alt="">
+                <img src="https://images.meesho.com/images/pow/instagram.png" alt="">
+                <img src="https://images.meesho.com/images/pow/youtube.png" alt="">
+                <img src="https://images.meesho.com/images/pow/linkedin.png" alt="">
+                <img src="https://images.meesho.com/images/pow/twitter.png" alt="">
+            </div>
+        </div>
+        <div id="reach">
+            <h3>Contact Us</h3>
+            <p>Fashnear Technologies Private Limited, <br>
+                CIN: U74900KA2015PTC082263<br>
+                06-105-B, 06-102, (138 Wu)<br> Vaishnavi Signature, No. 78/9,<br> Outer Ring Road, Bellandur,<br>Varthur Hobli, Bengaluru-560103,<br> Karnataka, India<br>
+                E-mail address:<br> query@galaxy.com<br>
+                © 2015-2022 Galaxy.com</p>
+        </div>
+    </div>
+    <div class="about">
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item" >
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button"  type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    More About Galaxy Store
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Galaxy: Affordable Online Shopping at Your Fingertips</strong> <br> There are many benefits of shopping online. You can take your time and look at different options to find exactly what you want. It's easy to compare prices online and find exactly what you are looking for. And now with Meesho, you can shop for anything you want at the lowest prices in the market.  Even if you want to shop for cool gifts for your friends and family, there are many options that you can find on the Internet. <p>
+                  <strong>A Huge Selection of Products Across All Categories</strong><br>
+                  We have a vast inventory of products ranging from apparel to cosmetics to home utility and kitchen products and more. With over 50 lakh products and 650+ product categories, Meesho is sure to have everything you need. In our latest collections, you will find all the popular items at an affordable price, so you can be confident you're getting the best deal. Whether you're in the market for new clothes, accessories, or just some daily-use items for home, Meesho has what you need. <br>
+                </div>
+              </div>
+            </div>
+                        
+          </div>
+    </div>
+</footer>
 </body>
-<script src="./JS/index.js"></script>
+<script src="./JS/index.js" defer></script>
 </html>
