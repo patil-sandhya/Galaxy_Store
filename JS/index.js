@@ -1082,6 +1082,7 @@ all=[
 ]
 
 let displayDiv = document.getElementById("displayproduct");
+let addedProduct = JSON.parse(localStorage.getItem("added"))||[]
 
 
 function DisplayData(data){
@@ -1120,7 +1121,14 @@ function DisplayData(data){
     })
     
 }
-DisplayData(all);
+if(addedProduct.length > 0){
+    let newar = all.concat(addedProduct);
+    DisplayData(newar);
+    console.log(newar)
+
+}else{
+    DisplayData(all)
+}
 let sortby = document.getElementById("sort")
  sortby.addEventListener("change", function(){
     if(sortby.value == ""){
