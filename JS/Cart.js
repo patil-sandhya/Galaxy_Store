@@ -84,11 +84,23 @@ DisplayCartData();
 
 document.getElementById("continue").onclick = function(e) {
         e.preventDefault()
+        let buyersData = JSON.parse(localStorage.getItem("customer"))
     document.getElementById("displayItem").style.display = "none";
     document.getElementById("address").style.display = "flex";
     let totalBill3 = document.querySelector("#total3")
     let totalBill4 = document.querySelector("#total4")
+    let buynm = document.getElementById("buyersName");
+    let add = document.getElementById("ars")
+    let city =document.getElementById("city")
+    let pin =document.getElementById("city")
+    let email =document.getElementById("email")
 
+
+    buynm.innerText = buyersData.name
+    add.innerText = buyersData.address;
+    city.innerText = buyersData.city;
+    pin.innerText = buyersData.pin;
+    email.innerText= buyersData.email
     let sum=0;
     for(let i=0; i<cartItemsData.length; i++){
         sum+= cartItemsData[i].price * cartItemsData[i].qty
@@ -98,7 +110,7 @@ document.getElementById("continue").onclick = function(e) {
     totalBill4.innerText=`₹${sum}`
 
     document.getElementById("payment").addEventListener("click", function(){
-        alert("Thank You");
+        alert("Your order is confirm Thank You !");
     window.location.href="index.html";
     })
     
