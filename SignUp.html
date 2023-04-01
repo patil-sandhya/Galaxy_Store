@@ -47,11 +47,11 @@
         <div class="card">
             <img src="https://images.meesho.com/images/marketing/1661417516766.webp" alt="">
             <h3>Sign Up to view your profile</h3>
-            <form action="">
+            <form action="" id="mobForm">
                 <div>
                 <div><p>Country</p><h4>In +91</h4></div>
                 <div>
-                    <input type="text" class="mobile" placeholder="Phone Number">
+                    <input type="text" class="mobile" placeholder="Phone Number" id="mobile">
                 </div>
             </div>
                 <button id="conbtn">Continue</button>
@@ -62,9 +62,9 @@
         <div class="card">
             <img src="https://images.meesho.com/images/marketing/1661417516766.webp" alt="">
             <h3>Enter OTP</h3>
-            <form action="">
+            <form action="" id="otpform">
                 <div>
-                    <input type="text" class="mobile" placeholder="Enter OTP">
+                    <input type="text" class="mobile" placeholder="Enter OTP" id="onetp">
                 </div>
                 <button id="verify">Verify</button>
             </form>
@@ -74,33 +74,19 @@
         <div class="card">
             <img src="https://images.meesho.com/images/marketing/1661417516766.webp" alt="">
             <h3>Enter Your Details</h3>
-            <form action="">
+            <form action="" id="detailsform">
                 
-                    <input type="text" class="inpDetails" placeholder="Name"><br>
-                    <input type="text" class="inpDetails" placeholder="Address"><br>
-                    <input type="text" class="inpDetails" placeholder="City"><br>
-                    <input type="text" class="inpDetails" placeholder="Pin Code"><br>
-                    <input type="text" class="inpDetails" placeholder="Email"> <br>
+                    <input type="text" class="inpDetails" placeholder="Name" id="fnm"><br>
+                    <input type="text" class="inpDetails" placeholder="Address" id="a"><br>
+                    <input type="text" class="inpDetails" placeholder="City" id="city"><br>
+                    <input type="text" class="inpDetails" placeholder="Pin Code" id="pin"><br>
+                    <input type="text" class="inpDetails" placeholder="Email" id="email"> <br>
                 
                 <button id="detailSubmit">Submit</button>
             </form>
         </div>
     </div>
 </body>
-<script>
-    document.getElementById("conbtn").onclick = function(e) {
-        e.preventDefault()
-    document.getElementById("register").style.display = "none";
-    document.getElementById("otp").style.display = "flex";
+<script src="./JS/SignUp.js"></script>
 
-}
-document.getElementById("verify").onclick = function(e) {
-        e.preventDefault()
-    document.getElementById("register").style.display = "none";
-    document.getElementById("otp").style.display = "none";
-
-    document.getElementById("details").style.display = "flex";
-
-}
-</script>
 </html>

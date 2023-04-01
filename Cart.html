@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galaxy Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/index.css">
+    <link rel="stylesheet" href="./CSS/Cart.css">
+</head>
+<body>
+    <div id="navbar">
+        <div id="nav">
+            <div class="firstdiv">
+                <div id="logo">
+                    <img src="./Images/Logo.png" alt="" onclick="location.href='index.html';">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="displayItem">
+        <div id="items">
+            <div id="cartTotalItems">
+                <h4>Cart</h4>
+                <div class = "vertical"></div>
+                <p id="countItem">3 Item</p>
+            </div>
+            <div id="showCartItems">
+                <!-- <div id="middleDetails">
+                    <div>
+                    <img src="https://images.meesho.com/images/products/194701144/ubqqd_512.webp" alt="">
+                    </div>
+                    <div>
+                        <h4>Women highneck girls highneck highneck</h4>
+                        <p>Qty: 1</p>
+                        <h5>₹445</h5>
+                        <button id="inc">+</button>
+                        <button id="dec">-</button>
+                    </div>
+                    <div>
+                        <button id="remove">x Remove</button>
+                    </div>
+                </div>
+                <div id="middleDetails">
+                    <div>
+                    <img src="https://images.meesho.com/images/products/194701144/ubqqd_512.webp" alt="">
+                    </div>
+                    <div>
+                        <h4>Women highneck girls highneck highneck</h4>
+                        <p>Qty: 1</p>
+                        <h5>₹445</h5>
+                        <button id="inc">+</button>
+                        <button id="dec">-</button>
+                    </div>
+                    <div>
+                        <button id="remove">x Remove</button>
+                    </div>
+                </div> -->
+            </div>
+            
+        </div>
+        <div id="bill">
+            <div class = "verticalbill"></div>
+            <div>
+                <h6>Price Details</h6>
+                <p>Total Product Price<span id="total1"></span></p>
+                <hr>
+                <h6>Order Total<span id="total2"></span></h6> 
+                <p class="clickcon">Clicking on ‘Continue’ will not deduct any money</p>
+                <button id="continue">Continue</button>
+                <div>
+                <img src="https://images.meesho.com/images/marketing/1588578650850.webp" alt="">
+            </div>
+            </div>
+        </div>
+    </div>
+    <div id="address">
+        <div id="detailAddress">
+            <div>
+            <h6>Select Delivery Address <span>+ ADD NEW ADDRESS</span></h6>
+            </div>
+            <div id="buyerdetails">
+                <h6 id="buyersName">Sandhya Patil</h6>
+                <p id="location">42, Krantinagar Sakri Road, Sakri Road,Dhule,
+                    Maharashtra - 424001 <br>
+                    <span id="mobile">+91 8975049498</span>
+                    </p>
+                <p class="edit">EDIT</p>
+                <button id="deliver">Deliver to this Address</button>
+            </div>
+        </div>
+        <div id="bill">
+            <div class = "verticalbill"></div>
+            <div>
+                <h6>Price Details</h6>
+                <p>Total Product Price<span id="total3"></span></p>
+                <hr>
+                <h6>Order Total<span id="total4"></span></h6> 
+                <button id="payment">Make Payment</button>
+            </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="./JS//Cart.js"></script>
+</html>

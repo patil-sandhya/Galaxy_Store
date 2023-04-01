@@ -1,0 +1,108 @@
+#showproduct{
+    display: flex;
+    margin: auto;
+    margin-top: 125px;
+    justify-content: center;
+    padding-top: 20px;
+}
+#smallImg{
+    margin-top: 20px;
+}
+#smallImg>div:nth-child(1){
+    border: 1px solid rgb(244, 51, 151);;
+    margin: 2px
+}
+#smallImg>div>img{
+    width: 80px;
+    height: 80px;
+    margin: 7px;
+    cursor: pointer;
+}
+#card{
+    margin: 20px;
+    padding: 0px;
+}
+#largeImg>img{
+    width: 400px;
+    height: 430px;
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+#btn{
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+}
+#add{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    background-color: white;
+    border-radius: 5px;
+    width: 170px;
+    height: 45px;
+    padding-top: 10px;
+    border: 1px solid rgb(37, 37, 37);
+    color: rgb(22, 22, 22);
+}
+#add>p, #buy>p{
+    font-size: 15px;
+    margin-left: 7px;
+    font-weight: 500;
+}
+#buy{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    background-color: rgb(244, 51, 151);
+    border-radius: 5px;
+    width: 170px;
+    height: 45px;
+    padding-top: 10px;
+    color: white;
+    border: none;
+}
+.offer{
+    border: 1px solid rgb(163, 162, 162);
+    border-radius: 10px;
+    padding: 30px;
+}
+#rating{
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(3, 138, 97);
+    color: white;
+    width: 25%;
+    height: 30px;
+    padding-top: 3px;
+    padding-left: 15px;
+    border-radius: 20px;
+}
+
+.free{
+    background-color: rgb(222, 219, 219);
+    color: grey;
+    margin: 5px;
+    margin-top: 10px;
+    text-align: center;
+    width: 28%;
+    border-radius: 30px;
+    height: 15px;
+}
+.free>p{
+    font-size: 10px;
+}
+#pdetail{
+    margin-top: 30px;
+}
+#pdetail>div>h5, #pdetail>div>a>h5{
+    font-size: 15px;
+    font-weight: 500;
+    color: gray;
+    
+}
+#pdetail>div>a{
+    text-decoration: none;
+    border-bottom:1px dotted black; 
+}

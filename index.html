@@ -20,7 +20,7 @@
             <div class="search">
                 <img src="./Images/se.png" alt="">
                 <!-- <p>Try Saree, Kurti or Search by Product Code</p> -->
-                <input type="text" placeholder="Try Saree, Kurti or Search by Product Code">
+                <input type="text" id="searchProduct" placeholder="Try Saree, Kurti or Search by Product Code">
             </div>
         </div>
         <div class="secondDiv">
@@ -48,7 +48,7 @@
                     <button onclick="location.href='SignUp.html';">Sign Up</button>
                 </div>
             </div>
-            <div id="cart">
+            <div id="cart" onclick="location.href='Cart.html';">
                 <i class="fa fa-shopping-cart"></i>
                    <h5>Cart</h5> 
             </div>
@@ -309,8 +309,8 @@
         <div id="sort&filter">
             <div id="sortdiv">
                 <select name="sort" id="sort">
-                    <option value="Relevance"><p> Sort by :</p><span>Relevance </span></option>
-                    <option value="new"> <p>Sort by :</p><span>Arrivals</span></option>
+                    <option value=""><p> Sort by :</p><span>Relevance </span></option>
+                    <option value=""> <p>Sort by :</p><span>Arrivals</span></option>
                     <option value="htl"> <p>Sort by :</p><span>Price (High to Low)</span></option>
                     <option value="lth"> <p>Sort by :</p><span>Price (Low to High)</span></option>
                 </select>
@@ -339,9 +339,9 @@
                   </h2>
                   <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                      <button id="filterBtn" value="women">Women</button>
-                      <button id="filterBtn" value="men">Men</button>
-                      <button id="filterBtn" value="kids">Kids</button>
+                      <button class="filterBtn" id="women" value="women">Women</button>
+                      <button class="filterBtn" id="men" value="men">Men</button>
+                      <button class="filterBtn" value="kids">Kids</button>
                     </div>
                   </div>
                 </div>
@@ -353,10 +353,10 @@
                   </h2>
                   <div id="price" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                      <button id="filterBtn" value="299">Under ₹ 299</button>
-                      <button id="filterBtn" value="349">Under ₹ 349</button>
-                      <button id="filterBtn" value="399">Under ₹ 399</button>
-                      <button id="filterBtn" value="400">Above ₹ 399</button>
+                      <button class="filterBtn" id="299" value="299">Under ₹ 299</button>
+                      <button class="filterBtn" id="349" value="349">Under ₹ 349</button>
+                      <button class="filterBtn" id="399" value="399">Under ₹ 399</button>
+                      <button class="filterBtn" id="400" value="400">Above ₹ 399</button>
                     </div>
                   </div>
                 </div>
@@ -368,10 +368,10 @@
                     </h2>
                     <div id="rating" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                       <div class="accordion-body">
-                        <button id="filterBtn" value="2">2.0 and above</button>
-                        <button id="filterBtn" value="3">3.0 and above</button>
-                        <button id="filterBtn" value="3.5">3.5 and above</button>
-                        <button id="filterBtn" value="4">4.0 and above</button>
+                        <button class="filterBtn" id="2.0" value="2">2.0 and above</button>
+                        <button class="filterBtn" id="3.0" value="3">3.0 and above</button>
+                        <button class="filterBtn" id="3.5" value="3.5">3.5 and above</button>
+                        <button class="filterBtn" id="4.0" value="4">4.0 and above</button>
                       </div>
                     </div>
                   </div>

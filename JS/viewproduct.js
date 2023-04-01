@@ -1,3 +1,5 @@
+//const { json } = require("express/lib/response")
+
 womensaree=[
     {
         "id":1,
@@ -220,6 +222,8 @@ mentshirt=[
         "id":19,
         "Name":"FABDEX FASHION",
         "type":"Shirt",
+        
+        "fabric":"Cotton",
         "rating":4.2,
         "price":438,
         "discount":10,
@@ -232,6 +236,7 @@ mentshirt=[
         "id":20,
         "Name":"Trendy Men Formal Shirts-Black Color.",
         "type":"Shirt",
+        "fabric":"Cotton",
         "rating":3.9,
         "price":308,
         "discount":5,
@@ -245,6 +250,7 @@ mentshirt=[
         "id":21,
         "Name":"SOUTH SUPERSTAR ALLU FORMAL WEAR- BOTTEL",
         "type":"Shirt",
+        "fabric":"Cotton",
         "rating":3.6,
         "price":420,
         "discount":6,
@@ -257,6 +263,7 @@ mentshirt=[
         "id":22,
         "Name":"Men Formal Shirts-Plus Size",
         "type":"Shirt",
+        "fabric":"Cotton",
         "rating":3.8,
         "price":325,
         "discount":9,
@@ -270,6 +277,7 @@ mentshirt=[
         "id":23,
         "Name":"Agarwal Fashion Shirt",
         "type":"Shirt",
+        "fabric":"Cotton",
         "rating":4,
         "price":354,
         "discount":4,
@@ -282,6 +290,7 @@ mentshirt=[
         "id":24,
         "Name":"KHADI COTTON SHIRT",
         "type":"Shirt",
+        "fabric":"Cotton",
         "rating":3.7,
         "price":599,
         "discount":7,
@@ -293,6 +302,7 @@ mentshirt=[
         "id":25,
         "Name":"Trendy Marc Laurent Brand",
         "type":"Shirt",
+        "fabric":"Rayon",
         "rating":3.8,
         "price":499,
         "discount":4,
@@ -305,6 +315,7 @@ mentshirt=[
         "id":26,
         "Name":"HET Fashion Men's Regular Lycra Casual Half Sleeve Shirt",
         "type":"Shirt",
+        "fabric":"Rayon",
         "rating":3.7,
         "price":313,
         "discount":1,
@@ -316,6 +327,7 @@ mentshirt=[
         "id":27,
         "Name":"Fancy Modern Men Shirts",
         "type":"Shirt",
+        "fabric":"Rayon",
         "rating":3.9,
         "price":301,
         "discount":10,
@@ -327,6 +339,7 @@ mentshirt=[
         "id":28,
         "Name":"My Lifeline Full Sleeve Round Neck T-shirt",
         "type":"TShirt",
+        "fabric":"Rayon",
         "rating":3.5,
         "price":213,
         "discount":2,
@@ -338,6 +351,7 @@ mentshirt=[
         "id":29,
         "Name":"Deeanna Black Cotton Round Neck Printed Half Sleeve",
         "type":"TShirt",
+        "fabric":"Rayon",
         "rating":4,
         "price":399,
         "discount":10,
@@ -351,6 +365,7 @@ mentshirt=[
         "id":30,
         "Name":"The Million Club Men's Black Half Sleeve Round Neck",
         "type":"TShirt",
+        "fabric":"Rayon",
         "rating":3.6,
         "price":549,
         "discount":10,
@@ -364,6 +379,7 @@ mentshirt=[
         "id":31,
         "Name":"Men's NEVER GIVE UP HAND Graphic Printed T-shirt",
         "type":"TShirt",
+        "fabric":"Cotton",
         "rating":4,
         "price":234,
         "discount":5,
@@ -376,6 +392,7 @@ mentshirt=[
         "id":32,
         "Name":"White Cotton Blend Regular Fit Men's T-Shirt (Mustard Color)",
         "type":"TShirt",
+        "fabric":"Cotton",
         "rating":3.6,
         "price":249,
         "discount":10,
@@ -391,6 +408,7 @@ jeans=[
         "Name":"Trendy Solid Denim Jeans",
         "gender":"f",
         "type":"Jeans",
+        "fabric":"Dennim",
         "rating":3.5,
         "price":387,
         "discount":5,
@@ -403,6 +421,7 @@ jeans=[
         "Name":"Stylish Women's Denim Jeans",
         "gender":"f",
         "type":"Jeans",
+        "fabric":"Dennim",
         "rating":4,
         "price":409,
         "discount":10,
@@ -416,6 +435,7 @@ jeans=[
         "Name":"women denim jogger,jeans",
         "gender":"f",
         "type":"Jeans",
+        "fabric":"Dennim",
         "rating":3.7,
         "price":449,
         "discount":9,
@@ -429,6 +449,7 @@ jeans=[
         "Name":"Grey track pant",
         "gender":"m",
         "type":"tJeans",
+        "fabric":"Cotton",
         "rating":3.8,
         "price":349,
         "discount":10,
@@ -441,6 +462,7 @@ jeans=[
         "Name":"Regular Fit Track Pant For Mens",
         "gender":"m",
         "type":"tJeans",
+        "fabric":"Cotton",
         "rating":3.6,
         "price":427,
         "discount":8,
@@ -455,6 +477,7 @@ jeans=[
         "Name":"LZARD JEANS",
         "gender":"m",
         "type":"Jeans",
+        "fabric":"Cotton",
         "rating":3.8,
         "price":398,
         "discount":8,
@@ -468,6 +491,7 @@ jeans=[
         "Name":"Stylish Latest Men Jeans",
         "gender":"m",
         "type":"Jeans",
+        "fabric":"Dennim",
         "rating":3.9,
         "price":448,
         "discount":9,
@@ -482,6 +506,7 @@ jeans=[
         "Name":"Designer Trendy Men Jeans",
         "gender":"m",
         "type":"Jeans",
+        "fabric":"Dennim",
         "rating":3.7,
         "price":493,
         "discount":10,
@@ -496,6 +521,7 @@ jeans=[
         "Name":"MARKVIEW PLAIN BLACK JEANS",
         "gender":"m",
         "type":"Jeans",
+        "fabric":"Dennim",
         "rating":4.3,
         "price":397,
         "discount":9,
@@ -509,6 +535,7 @@ jeans=[
         "Name":"BLACK regular fit jeans",
         "gender":"m",
         "type":"Jeans",
+        "fabric":"Dennim",
         "rating":3.8,
         "price":390,
         "discount":5,
@@ -518,3 +545,86 @@ jeans=[
         ]
     },
 ]
+let data= JSON.parse(localStorage.getItem("clicked"));
+let cartData = JSON.parse(localStorage.getItem("cartItems")) || []
+
+let fname = document.getElementById("fpnm");
+let fprice = document.getElementById("fprice");
+let frating = document.getElementById("frt");
+let productnm = document.getElementById("pname");
+let pfabric = document.getElementById("fabric");
+let small = document.getElementById("smallImg");
+let largeImg = document.querySelector("#largeImg>img")
+function display(){
+    //console.log(data)
+    fname.innerText=data.Name;
+    fprice.innerText=data.price;
+    frating.innerText=data.rating;
+    productnm.innerText=data.Name;
+    pfabric.innerText=data.fabric;
+    largeImg.src=data.image[0]
+    data.image.forEach(function(element){
+        //console.log(element)
+        let sdiv = document.createElement("div");
+        let images = document.createElement("img");
+        images.src = element;
+
+        sdiv.addEventListener("click",function(){
+            let res = document.querySelector("#smallImg>div");
+            res.style.border="none";
+            console.log(element)
+            largeImg.src=element
+        })
+
+        sdiv.append(images);
+        small.append(sdiv)
+    })
+}
+display();
+function checkAvailable(data){
+    console.log(data.id)
+    for(let i=0; i<cartData.length; i++){
+        console.log(cartData[i].id)
+        if(cartData[i].id === data.id){
+        
+            return true;
+        }
+        
+    }
+    return false
+}
+
+function addtoCart(){
+    let mobile = localStorage.getItem("mobile")
+    console.log(mobile)
+    if(mobile == null){
+        window.location.href="SignUp.html";
+    }
+        //console.log(checkAvailable(data))
+        if(checkAvailable(data)){
+            alert("Product already in cart")
+        }else{
+        alert("Product is added to cart")
+        cartData.push({...data, qty:1})
+        localStorage.setItem("cartItems", JSON.stringify(cartData))
+        }
+}
+
+function buynow(){
+    let mobile = localStorage.getItem("mobile")
+    console.log(mobile)
+    if(mobile == null){
+        window.location.href="SignUp.html";
+    }
+        //console.log(checkAvailable(data))
+        if(checkAvailable(data)){
+            window.location.href="Cart.html";
+        }else{
+        cartData.push({...data, qty:1})
+        localStorage.setItem("cartItems", JSON.stringify(cartData));
+        window.location.href="Cart.html";
+        }
+        
+    
+}
+

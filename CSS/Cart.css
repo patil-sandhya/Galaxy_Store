@@ -1,0 +1,146 @@
+#displayItem{
+    display: flex;
+    margin: auto;
+    margin-top: 80px;
+    justify-content: center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+#address{
+    display: none;
+    margin: auto;
+    margin-top: 80px;
+    justify-content: center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+#cartTotalItems{
+    display: flex;
+}
+#cartTotalItems>div{
+    height: 30px;
+}
+#cartTotalItems p{
+  margin-left: 10px;
+  color: grey;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+#middleDetails{
+    display: flex;
+    padding: 10px;
+    margin: auto;
+    margin-top: 5px;
+    border: 1px solid rgb(188, 187, 187);
+    border-radius: 10px;
+    justify-content: space-between;
+}
+#showCartItems div div img{
+    width: 100px;
+    height: 100px;
+    margin-right: 13px;
+}
+#middleDetails h4{
+    font-size: 15px;
+}
+#inc, #dec{
+    margin-top: 20px;
+   color: white;
+   background-color: rgb(244, 51, 151);
+   font-size: 15px;
+   font-weight: bold;
+   border: none;
+   height: 30px;
+   width: 30px;
+   border-radius: 5px;
+}
+#dec{
+    margin-left: 10px;
+}
+
+#remove{
+    height: 30px;
+   width: 130px;
+  color: rgb(244, 51, 151);
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  padding-top: 0px;
+  margin-left: 10%;
+}
+.verticalbill{
+    border-right: 2px solid rgb(203, 202, 202);
+  height: 100%;
+  margin-left: 30px;
+}
+#bill{
+    display: flex;
+}
+#bill div:nth-child(2){
+    margin-left: 30px;
+}
+#bill p span, #bill h6 span{
+    margin-left: 90px;
+}
+#bill h6 span{
+    margin-left: 140px;
+}
+.clickcon{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    background-color: rgb(216, 216, 216);
+    color: rgb(141, 141, 141);
+    font-size: 10px;
+    padding: 3px;
+}
+#continue, #payment{
+    height: 45px;
+   width: 100%;
+   background-color: rgb(244, 51, 151);
+  color: white;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 5px;
+  margin-top: 20px;
+  outline: none;
+    
+}
+#bill div div img{
+    width: 250px;
+    height: 150px; 
+}
+#location{
+    width: 200px;
+}
+#buyerdetails{
+    background-color: rgb(231, 238, 255);
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px;
+}
+.edit{
+    color:rgb(244, 51, 151);
+    font-weight: 700;
+}
+
+#deliver{
+    margin-top: 20px;
+    color: white;
+    background-color: rgb(244, 51, 151);
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    width: 95%;
+    border-radius: 5px;
+}
+
+#detailAddress div h6 span{
+    color:rgb(244, 51, 151);
+    margin-left: 150px;
+}

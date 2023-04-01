@@ -44,6 +44,7 @@ body{
 #logo>img{
     height: 70px;
     width: 170px;
+    cursor: pointer;
 }
 .firstdiv{
     display: flex;
@@ -107,6 +108,7 @@ h5{
     text-align: center;
     padding: 10px;
     color: rgb(47, 47, 47);
+    cursor: pointer;
 }
 #profile>i, #cart>i{
     font-size: 30px; 
@@ -531,7 +533,7 @@ h5{
     color: grey;
     font-size: 15px;
 }
-#filterBtn{
+.filterBtn{
     background-color: white;
     border-radius: 15px;
     border: 1px solid rgb(189, 188, 188);
